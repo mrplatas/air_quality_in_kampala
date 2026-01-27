@@ -1,0 +1,189 @@
+/* ============================================================
+   HEADINGS: clear hierarchy, generous size
+   ============================================================ */
+
+h1       { font-size: 30px; }
+h1.title { font-size: 32px; }
+
+h2 { font-size: 24px; }
+h3 { font-size: 21px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+/* ============================================================
+   SPACING: AIRY but controlled
+   ============================================================ */
+
+h1 {
+  margin-top: 56px;
+  margin-bottom: 22px;
+}
+
+h2 {
+  margin-top: 52px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+
+h4 {
+  margin-top: 30px;
+  margin-bottom: 14px;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+ul, ol {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   MAIN CONTAINER WIDTH
+   ============================================================ */
+
+div.main-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================================
+   CODE & IMAGES
+   ============================================================ */
+
+code {
+  color: inherit;
+  background-color: rgba(0,0,0,0.04);
+}
+
+pre:not([class]) {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ============================================================
+   FIGURES, TABLES, WIDGETS: generous spacing
+   ============================================================ */
+
+.tabbed-pane {
+  padding-top: 18px;
+}
+
+.html-widget {
+  margin-bottom: 36px;
+}
+
+.figure {
+  margin: 40px 0;
+}
+
+p > img,
+table {
+  margin-bottom: 28px;
+}
+
+/* ============================================================
+   NAVBAR OFFSET + ANCHOR FIX (TOC-safe)
+   ============================================================ */
+
+body {
+  padding-top: 56px;
+  padding-bottom: 48px;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6 {
+  padding-top: 64px;
+  margin-top: -64px;
+}
+
+/* ============================================================
+   TOC (Table of Contents) — breathable
+   ============================================================ */
+
+#TOC {
+  margin: 30px 0 24px 0;
+}
+
+.toc-content {
+  padding-left: 36px;
+  padding-right: 48px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 280px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 26%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul,
+.tocify li {
+  line-height: 24px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 1.0em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+
+/* ============================================================
+   MISC
+   ============================================================ */
+
+button.code-folding-btn:focus {
+  outline: none;
+}
+
+summary {
+  display: list-item;
+}
+
+/* ============================================================
+   OPTIONAL: bump embedded plot text if needed
+   ============================================================ */
+
+/*
+svg text,
+.plotly .xtick text,
+.plotly .ytick text {
+  font-size: 13px !important;
+}
+*/
+
